@@ -202,7 +202,7 @@ tr td{
     @media (min-width: 576px) {
     .wrapper {
       max-width: 540px;
-      width: 80%;
+      width: 94%;
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
