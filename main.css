@@ -21,7 +21,7 @@ body{
     
     background-color: #fafafa;
     box-shadow: 2px 2px 8px rgba(30,30,30,.2);
-    margin: 10px 15px;
+    margin: 10px 0;
     padding: 15px 0;
     text-align: center;
     text-transform: uppercase;
@@ -38,7 +38,7 @@ body{
 .box_wrapper .box{
     background-color: #fafafa;
     box-shadow: 2px 2px 8px rgba(30,30,30,.2);
-    margin: 10px 15px;
+    margin: 10px 5px;
     width:25%;
     text-align: center;
     padding: 15px 0;
@@ -54,7 +54,7 @@ body{
 table{
     width: 100%;
     padding: 15px 10px;
-    margin: 10px 0;
+    margin: 0 10px 0 0;
     text-align: center;
     border-spacing: 0;
 }
@@ -83,3 +83,103 @@ tr td{
     
     
 }
+
+#myInput {
+    background-image: url('./img/search-icon-30x30.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: -webkit-fill-available;
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 15px 15px 15px 50px;
+    border: 1px solid #ddd;
+  }
+
+  ol {
+      padding: 0 0 0 40px;
+      margin-bottom: 15px;
+  }
+
+  ul {
+    padding: 0 0 0 40px;
+    margin-bottom: 15px;
+}
+
+  .blockquote {
+      font-size: medium;
+  }
+
+  .blockquote-footer {
+      margin-top: 20px;
+  }
+
+  .card-body {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .btn {
+      text-align: left;
+  }
+
+  /* ------------------------------------------- */
+
+    @media (min-width: 576px) {
+    .wrapper {
+      max-width: 540px
+    }
+    .total_case_box p{
+        font-size: 1rem;
+    }
+    .box_wrapper .box p{
+        font-size: 0.75rem;
+    }
+    #countries_stat{
+        font-size: 0.75rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .wrapper {
+      max-width: 720px
+    }
+    .total_case_box p{
+        font-size: 1rem;
+    }
+    .box_wrapper .box p{
+        font-size: 1rem;
+    }
+    #countries_stat{
+        font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .wrapper {
+      max-width: 960px
+    }
+    .total_case_box p{
+        font-size: 1.5rem;
+    }
+    .box_wrapper .box p{
+        font-size: 1.5rem;
+    }
+    #countries_stat{
+        font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .wrapper {
+      max-width: 1140px
+    }
+    .total_case_box p{
+        font-size: 1.5rem;
+    }
+    .box_wrapper .box p{
+        font-size: 1.5rem;
+    }
+    #countries_stat{
+        font-size: 1rem;
+    }
+  }
