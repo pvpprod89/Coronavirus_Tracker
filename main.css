@@ -79,9 +79,7 @@ tr:nth-child(odd){
     color: #fafafa;
 }
 tr td{
-    padding: 15px 0;
-    
-    
+    padding: 15px 0; 
 }
 
 #myInput {
@@ -120,9 +118,82 @@ tr td{
 
   .btn {
       text-align: left;
+      margin-bottom: 5px;
   }
 
   /* ------------------------------------------- */
+
+  @media (min-width: 320px) {
+    .wrapper {
+      max-width: 300px
+    }
+    .total_case_box p{
+        font-size: 0.75rem;
+    }
+    .box_wrapper .box p{
+        font-size: 0.50rem;
+    }
+    #countries_stat #response{
+        font-size: 0.50rem;
+    }
+    .navbar-brand {
+        font-size: 1rem;
+    }
+    p {
+        margin-bottom: 0px;
+    }
+    #myInput {
+        background-image: url('./img/search-icon-15x15.png');
+        background-position: 7px 5px;
+        background-repeat: no-repeat;
+        width: -webkit-fill-available;
+        font-size: 10px;
+        margin: 10px 0;
+        padding: 5px 10px 5px 30px;
+        border: 1px solid #ddd;
+      }
+    tr td {
+        padding: 8px 0;
+        font-size: 0.50rem;
+    }
+
+    th {
+        padding: 8px 0;
+        font-size: 0.50rem;
+    }
+    .total_case_box {
+        background-color: #fafafa;
+        box-shadow: 2px 2px 8px rgba(30,30,30,.2);
+        margin: 10px 0;
+        padding: 5px 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .blockquote {
+        font-size: small;
+    }
+  
+    .blockquote-footer {
+        margin-top: 0px;
+    }
+    .card-header {
+        padding: .75rem 1.25rem;
+        height: 3rem;
+    }
+    .mb-0 {
+        margin-top: -10px;
+    }
+    .btn-link {
+        font-size: 0.75rem;
+    }
+    ol, ul {
+        padding: 0 0 0 15px;
+        margin-bottom: 15px;
+    }
+    h4 {
+        font-size: medium;
+    }
+  }
 
     @media (min-width: 576px) {
     .wrapper {
@@ -134,8 +205,49 @@ tr td{
     .box_wrapper .box p{
         font-size: 0.75rem;
     }
-    #countries_stat{
+    #countries_stat #response{
         font-size: 0.75rem;
+    }
+    #myInput {
+    background-image: url('./img/search-icon-30x30.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: -webkit-fill-available;
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 15px 15px 15px 50px;
+    border: 1px solid #ddd;
+    }
+
+    .blockquote {
+        font-size: medium;
+    }
+
+    tr td {
+    padding: 15px 0;
+    font-size: 0.75rem;
+    }
+
+    th {
+        padding: 15px 0;
+        font-size: 0.75rem;
+    }
+    .card-header {
+        padding: .75rem 1.25rem;
+        height: 4rem;
+    }
+    .mb-0 {
+        margin-top: 0px;
+    }
+    .btn-link {
+        font-size: 1rem;
+    }
+    ol, ul {
+        padding: 0 0 0 40px;
+        margin-bottom: 15px;
+    }
+    h4 {
+        font-size: 1.25rem;
     }
   }
   
@@ -149,8 +261,48 @@ tr td{
     .box_wrapper .box p{
         font-size: 1rem;
     }
-    #countries_stat{
+    #countries_stat #response{
         font-size: 1rem;
+    }
+    #myInput {
+        background-image: url('./img/search-icon-30x30.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        width: -webkit-fill-available;
+        font-size: 16px;
+        margin: 10px 0;
+        padding: 15px 15px 15px 50px;
+        border: 1px solid #ddd;
+    }
+
+    .blockquote {
+        font-size: medium;
+    }
+
+    tr td {
+        padding: 15px 0;
+        font-size: 1rem;
+    }
+    th {
+        padding: 15px 0;
+        font-size: 1rem;
+    }
+    .card-header {
+        padding: .75rem 1.25rem;
+        height: 4rem;
+    }
+    .mb-0 {
+        margin-top: 0px;
+    }
+    .btn-link {
+        font-size: 1rem;
+    }
+    ol, ul {
+        padding: 0 0 0 40px;
+        margin-bottom: 15px;
+    }
+    h4 {
+        font-size: 1.25rem;
     }
   }
   
@@ -164,8 +316,48 @@ tr td{
     .box_wrapper .box p{
         font-size: 1.5rem;
     }
-    #countries_stat{
+    #countries_stat #response{
         font-size: 1rem;
+    }
+    #myInput {
+        background-image: url('./img/search-icon-30x30.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        width: -webkit-fill-available;
+        font-size: 16px;
+        margin: 10px 0;
+        padding: 15px 15px 15px 50px;
+        border: 1px solid #ddd;
+    }
+
+    .blockquote {
+        font-size: medium;
+    }
+
+    tr td {
+        padding: 15px 0;
+        font-size: 1rem;
+    }
+    th {
+        padding: 15px 0;
+        font-size: 1rem;
+    }
+    .card-header {
+        padding: .75rem 1.25rem;
+        height: 4rem;
+    }
+    .mb-0 {
+        margin-top: 0px;
+    }
+    .btn-link {
+        font-size: 1rem;
+    }
+    ol, ul {
+        padding: 0 0 0 40px;
+        margin-bottom: 15px;
+    }
+    h4 {
+        font-size: 1.25rem;
     }
   }
   
@@ -179,7 +371,47 @@ tr td{
     .box_wrapper .box p{
         font-size: 1.5rem;
     }
-    #countries_stat{
+    #countries_stat #response{
         font-size: 1rem;
+    }
+    #myInput {
+        background-image: url('./img/search-icon-30x30.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        width: -webkit-fill-available;
+        font-size: 16px;
+        margin: 10px 0;
+        padding: 15px 15px 15px 50px;
+        border: 1px solid #ddd;
+    }
+
+    .blockquote {
+        font-size: medium;
+    }
+    
+    tr td {
+        padding: 15px 0;
+        font-size: 1rem;
+    }
+    th {
+        padding: 15px 0;
+        font-size: 1rem;
+    }
+    .card-header {
+        padding: .75rem 1.25rem;
+        height: 4rem;
+    }
+    .mb-0 {
+        margin-top: 0px;
+    }
+    .btn-link {
+        font-size: 1rem;
+    }
+    ol, ul {
+        padding: 0 0 0 40px;
+        margin-bottom: 15px;
+    }
+    h4 {
+        font-size: 1.25rem;
     }
   }
