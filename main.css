@@ -199,6 +199,82 @@ tr td{
     }
   }
 
+  @media (min-width: 414px) {
+    .wrapper {
+        max-width: 394px;
+        width: 94%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .total_case_box p{
+        font-size: 0.75rem;
+    }
+    .box_wrapper .box p{
+        font-size: 0.75rem;
+    }
+    #countries_stat #response{
+        font-size: 0.75rem;
+    }
+    .navbar-brand {
+        font-size: 1rem;
+    }
+    p {
+        margin-bottom: 0px;
+    }
+    #myInput {
+        background-image: url('./img/search-icon-20x20.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        width: -webkit-fill-available;
+        font-size: 15px;
+        margin: 10px 0;
+        padding: 10px 10px 10px 40px;
+        border: 1px solid #ddd;
+      }
+    tr td {
+        padding: 15px 0;
+        font-size: 0.75rem;
+    }
+
+    th {
+        padding: 15px 0;
+        font-size: 0.75rem;
+    }
+    .total_case_box {
+        background-color: #fafafa;
+        box-shadow: 2px 2px 8px rgba(30,30,30,.2);
+        margin: 10px 0;
+        padding: 5px 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .blockquote {
+        font-size: small;
+    }
+  
+    .blockquote-footer {
+        margin-top: 0px;
+    }
+    .card-header {
+        padding: .75rem 1.25rem;
+        height: 3rem;
+    }
+    .mb-0 {
+        margin-top: -10px;
+    }
+    .btn-link {
+        font-size: 0.75rem;
+    }
+    ol, ul {
+        padding: 0 0 0 15px;
+        margin-bottom: 15px;
+    }
+    h4 {
+        font-size: medium;
+    }
+  }
+
     @media (min-width: 576px) {
     .wrapper {
       max-width: 540px;
